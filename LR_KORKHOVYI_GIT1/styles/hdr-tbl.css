@@ -1,0 +1,400 @@
+@charset "UTF-8";
+
+html, div, span, applet, object, iframe, blockquote, a, abbr, acronym,
+	address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp,
+	small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul,
+	li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+	tr, th, td {
+	background: transparent;
+	border: 0;
+	/* font-size: 100%; */
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+a {
+	text-decoration: none;
+	color: #DC7600;
+}
+
+body {
+	background-image: url(../images/body_bg.png);
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, p, em, pre, code {
+	font-size: 100%;
+	font-style: normal;
+	font-weight: 400;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+strong {
+	font-size: 100%;
+	font-style: bold;
+	font-weight: 800;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	display: block;
+	margin-block-start: 1.33em;
+	margin-block-end: 1.33em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+
+table.tableFavs tr {
+	padding-right: 15px;
+	border: 1px solid #fdb94e;
+}
+table.tableFavs {
+	padding-right: 15px;
+	border: 1px solid #fdb94e;
+}
+
+.topLine {
+	height: 34px;
+	width: 100%;
+	position: relative;
+	outline: 0px solid red;
+	margin-bottom: 12px;
+}
+
+div.topLine div.login form {
+	width: 330px;
+	height: 22px;
+	border-radius: 3px;
+	background: #fbc182;
+	display: block;
+	padding: 6px;
+}
+
+div.topLine div.login span.loginLink a {
+	color: #FCFAF7;
+}
+
+div.topLine div.login a.loginExit {
+	width: 27px;
+	height: 27px;
+	box-shadow: inset 0 1px 1px 0 #747474;
+	border-radius: 18px;
+	background: #fcdaab;
+	display: block;
+	padding: 7px 0 0 7px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+span.loginLink {
+	padding: 10px 0 11px 0;
+	position: absolute;
+	left: 39px;
+	top: 0;
+	background: #fbc182;
+	border-radius: 0 18px 18px 0;
+}
+
+div.topLine div.login span.fromSpan {
+	position: absolute;
+	top: 0px;
+	left: 385px;
+	color: #525252;
+	line-height: 16px;
+}
+
+div.topLine div.login form .buttonEx {
+	width: 26px;
+	height: 22px;
+	background: #fcdaab;
+	border-radius: 3px;
+	border: 0;
+	padding: 0;
+	background: #fcdaab url(../images/buttonExBG.png) no-repeat center;
+}
+
+div.topLine div.login form #login_name, div.topLine div.login form #login_password
+	{
+	width: 143px;
+	height: 22px;
+	background: #fcdaab;
+	color: #e68d19;
+	font-size: 12px;
+	padding: 0 0 0 6px;
+	border: 0;
+	border-radius: 3px;
+	margin-right: 3px;
+	float: left;
+}
+
+.topLine .search {
+	position: absolute;
+	right: 0;
+	width: 303px;
+	height: 34px;
+	top: 0;
+}
+
+.topLine .search form input.search {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 1px 1px 0 #999898;
+	-webkit-box-shadow: inset 0 1px 1px 0 #999898;
+	box-shadow: inset 0 1px 1px 0 #999898;
+	width: 251px;
+	height: 34px;
+	padding: 0;
+	border: 0;
+	background: #fbc182;
+	color: #FCFAF7;
+	font-style: italic;
+	font-size: 14px;
+	padding: 0 41px 0px 10px;
+}
+
+.topLine .search form input.searchButton {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../images/button_search.png);
+	width: 41px;
+	height: 34px;
+}
+
+.headbgnew {
+	background: url(../images/menbg.jpg) no-repeat center;
+	height: 90px;
+	position: relative;
+	min-width: 1002px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+.headbgnew .menu {
+	width: 1000px;
+	height: 53px;
+	outline: 0px solid red;
+	margin: 0 auto;
+	margin-top: 45px;
+	background: url(../images/menuBG.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.topnav {
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.genre-menu {
+	height: 0;
+	overflow: hidden;
+	opacity: 0;
+	transition: all 0.5s ease-in;
+}
+/*.menu ul#topnav li .sar {
+    display: none;
+    outline: 0px solid red;
+    position: absolute;
+    left: 90px;
+    bottom: 50px;
+    width: auto;
+    height: auto;
+    background: rgba(228, 155, 56, 0.81);
+}*/
+#blok_1 {
+	outline: 0px solid red;
+	width: 150px;
+	height: 197px;
+	display: block;
+	padding: 9px 0 0 10px;
+	float: left;
+}
+#leftBlock {
+    outline: 0px solid red;
+    margin-top: 5px;
+    width: 260px;
+    float: left;
+}
+.centerBlock {
+	outline: 0px solid green;
+	width: 720px;
+	float: right;
+	margin-top: 5px;
+	margin: 0 auto;
+}
+
+.present {
+	position: relative;
+	border: 1px solid #fdb94e;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background: url(../images/bannerTop.png);
+}
+
+.present h1, .present h2 {
+	font-weight: bold;
+	color: #C97E09;
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #fdb94e;
+}
+
+.present p {
+	text-align: justify;
+	margin-top: 8px;
+	color: rgb(163, 114, 28);
+}
+
+.imgRadius {
+	margin-right: 12px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 1px 1px 1px #b3b3b3;
+	box-shadow: 0px 1px 1px 1px #b3b3b3;
+	-o-box-shadow: 0px 1px 1px 1px #b3b3b3;
+	width: 240px;
+	margin-bottom: 1px;
+}
+
+.shortstory {
+	position: relative;
+	width: 720px;
+	background: #fde8cb;
+	background: -moz-linear-gradient(top, #fde8cb 0%, #fed79f 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fde8cb),
+		color-stop(100%, #fed79f));
+	background: -webkit-linear-gradient(top, #fde8cb 0%, #fed79f 100%);
+	background: -o-linear-gradient(top, #fde8cb 0%, #fed79f 100%);
+	background: -ms-linear-gradient(top, #fde8cb 0%, #fed79f 100%);
+	background: linear-gradient(to bottom, #fde8cb 0%, #fed79f 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fde8cb',
+		endColorstr='#fed79f', GradientType=0);
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 1px 1px 1px #cecece;
+	box-shadow: 0px 1px 1px 1px #cecece;
+	-o-box-shadow: 0px 1px 1px 1px #cecece;
+	margin-bottom: 20px;
+}
+
+.shortstoryHead {
+	position: relative;
+	width: 720px;
+}
+
+.shortstoryHead h2, .shortstory .shortstoryHead h1 {
+	color: #dc7600;
+	font-size: 17px;
+	padding: 20px 58px 20px 48px;
+	outline: 0px solid red;
+	border-bottom: 1px solid #eaca9a;
+	text-shadow: 0 1px 0 #fff;
+	background: url(../images/br_h2.png) 2% 53% no-repeat;
+}
+
+.shortstoryContent {
+	position: relative;
+	width: 720px;
+	background: #fde8cb;
+	background: -moz-linear-gradient(top, #fde8cb 0%, #fed79f 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fde8cb),
+		color-stop(100%, #fed79f));
+	background: -webkit-linear-gradient(top, #fde8cb 0%, #fed79f 100%);
+	background: -o-linear-gradient(top, #fde8cb 0%, #fed79f 100%);
+	background: -ms-linear-gradient(top, #fde8cb 0%, #fed79f 100%);
+	background: linear-gradient(to bottom, #fde8cb 0%, #fed79f 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fde8cb',
+		endColorstr='#fed79f', GradientType=0);
+	border-radius: 15px;
+}
+
+.shortstoryContent p {
+	text-align: justify;
+	line-height: 17px;
+}
+
+.shortstoryContent h4 {
+	border-radius: 5px;
+	margin: 0 0 3px 252px;
+	text-align: center;
+	padding: 6px;
+	color: #fff;
+	font-weight: bold;
+	background: #FFC579;
+	font-size: 13px;
+	text-shadow: 0px 1px 0px rgb(229, 167, 36);
+}
+
+#comment {
+	width: inherit;
+	outline: 0px solid red;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#newComment {
+	width: inherit;
+	height: 200px;
+	border: 1px solid #ffa20f;
+	margin-bottom: 10px;
+	position: relative;
+	background: #ffd8a0;
+	border-radius: 2px;
+}
+
+#form_comment {
+	outline: 0px solid red;
+	margin-top: 1px;
+	border-top: 1px solid #fff;
+	width: 695px;
+	margin: 0 auto;
+	padding-top: 12px;
+}
+
+.block_9 {
+	width: 458px;
+	height: 180px;
+	overflow: hidden;
+	float: left;
+}
+
+.commentFinal {
+	border: 1px solid #ffa20f;
+	margin-bottom: 10px;
+	position: relative;
+	background: #ffd8a0;
+	border-radius: 2px;
+	overflow: hidden;
+	font-size: 170%;
+}
+
+.commentFinalAva {
+	width: 115px;
+	float: left;
+	border-right: 1px solid #ffa20f;
+}
+
+.commentFinalText {
+	outline: 0px solid red;
+	min-height: 55px;
+	border-left: 1px solid #ffa20f;
+	padding: 7px;
+	color: #864d00;
+	font-size: 12px;
+	line-height: 14px;
+	background: #ffdfb4;
+	font-size: 80%;
+}
